@@ -1,0 +1,6 @@
+.DS_Store
+**/.DS_Store
+
+# photos aren't in the repository as it would take far too much storage
+# to restore all of the data, go to the google drive for the project and copy the image folders into the designated folder in the repo, then rename the folder to 'photos'
+*.JPG 

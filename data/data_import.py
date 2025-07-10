@@ -68,6 +68,8 @@ def createDataset(paths):
         image_paths.append(row[0])
         image_labels.append(int(row[1]))
 
+  
+
   # creates tensorflow datasets from the data
   path_ds = tf.data.Dataset.from_tensor_slices(image_paths)
   label_ds = tf.data.Dataset.from_tensor_slices(image_labels)
@@ -75,7 +77,7 @@ def createDataset(paths):
 
   
   ds = ds.map(load_image, num_parallel_calls=tf.data.AUTOTUNE) # calls load_image for all the images in the dataset in parralel
-  ds = ds.shuffle(buffer_size=1000) # randomizes dataset order
+  ds = ds.shuffle(buffer_size=config.data_shuffle_buffer_size) # randomizes dataset order
   ds = ds.batch(config.batch_size).prefetch(tf.data.AUTOTUNE)
 
   return ds
