@@ -4,14 +4,7 @@ import os
 import tensorflow as tf
 
 import config
-# converts species code to numberic value for training (0 is false trigger and -1 is error)
-label_map = {
-    'CAFA': 1,
-    'PRLO': 2,
-    'HOSA': 3,
-    'SCIU': 4,
-    'BIRD': 5,
-}
+
 
 # turns the spreadsheet data into a filepath, label pair and puts it in the key.csv file.
 def createKey(path):
@@ -38,7 +31,7 @@ def createKey(path):
   # creates an numberic array of keys based on the label map
   key = [0] * image_count
   for i in range(len(labeled_photo_indices)):
-    encoded_label = label_map.get(data[i+1][7], -1)
+    encoded_label = config.label_map.get(data[i+1][7], -1)
     if encoded_label == -1: print(f'Unknown label: {data[i+1][7]}, - IMG_{i}')
     key[labeled_photo_indices[i]] = encoded_label
 
@@ -70,7 +63,7 @@ def createDataset(paths):
       next(csvreader)
       for row in csvreader:
         image_paths.append(row[0])
-        image_labels.append(row[1])
+        image_labels.append(int(row[1]))
 
   # creates tensorflow datasets from the data
   path_ds = tf.data.Dataset.from_tensor_slices(image_paths)
