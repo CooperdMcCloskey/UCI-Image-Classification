@@ -7,7 +7,7 @@ import config
 
 
 # turns the spreadsheet data into a filepath, label pair and puts it in the key.csv file.
-def createKey(path):
+def createKey(path, validation=False):
 
   # extract spreadsheet data
   data = []
@@ -26,14 +26,16 @@ def createKey(path):
   # calculates the number of images in the folder
   image_count = sum(1 for image in os.scandir(path+'/photos') if image.is_file() and image.name.endswith('.JPG'))
 
-  print(image_count)
-
   # creates an numberic array of keys based on the label map
   key = [0] * image_count
   for i in range(len(labeled_photo_indices)):
     encoded_label = config.label_map.get(data[i+1][7], -1)
-    if encoded_label == -1: print(f'Unknown label: {data[i+1][7]}, - IMG_{i}')
+    if encoded_label == -1: print(f'Unknown label: {path} - {data[i+1][7]}, - IMG_{i}')
     key[labeled_photo_indices[i]] = encoded_label
+
+    #removes unsure photos from validation pool
+    if validation and int(data[i+1][5]) == 3:
+      key[labeled_photo_indices[i]] = -1
 
   # writes the key array and corresponding image filepath to the csv file
   with open(path+'/key.csv', mode='w', newline='') as file:
@@ -41,7 +43,7 @@ def createKey(path):
     writer.writerow(['filename', 'label'])  # header
 
     for i in range(len(key)):
-      if key[i] == -1: continue
+      if key[i] == -1 or key[i] == -2: continue
       writer.writerow([f'{path}/photos/IMG_{i+1:04d}.JPG', key[i]]) 
 
 
@@ -52,6 +54,7 @@ def load_image(path, label):
   image = tf.image.rgb_to_grayscale(image) # most photos are at night and black and white anyways so this is likely to improve performance
   image = image / 255.0 
   return image, label
+
 
 def createDataset(paths):
   # extracts all image paths and all keys from all the given directories

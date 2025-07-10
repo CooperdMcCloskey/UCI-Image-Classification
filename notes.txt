@@ -1,0 +1,4 @@
+There is no spreadsheet for Bonita Canyon 1 2023 06 21
+2023_09_06_BonitaCanyon1 is in a different format
+2024_04_11_BonitaCanyon1 has a weird artifact at the bottom of the spreadsheet
+2025_01_15_BonitaCanyon1 is missing dates for some rows and has N/A in many cells which messes up the data as well
