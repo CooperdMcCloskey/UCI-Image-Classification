@@ -6,7 +6,8 @@ import config
 def get_model():
 
   model = models.Sequential([
-    layers.Conv2D(32, (3, 3), activation='relu', padding='same', input_shape=config.image_size + (1,)),
+    keras.Input(shape=config.image_size + (1,)),
+    layers.Conv2D(32, (3, 3), activation='relu', padding='same'),
     layers.BatchNormalization(),
     layers.MaxPooling2D((2, 2)),
 
@@ -21,12 +22,12 @@ def get_model():
     layers.GlobalAveragePooling2D(),
 
     layers.Dense(128, activation='relu'),
-    layers.Dropout(0.3),
+    layers.Dropout(0.5),
 
     layers.Dense(128, activation='relu'),
-    layers.Dropout(0.3),
+    layers.Dropout(0.5),
 
-    layers.Dense(len(config.label_map)+1, activation='softmax')  
+    layers.Dense(config.class_count, activation='softmax')  
 ])
 
   return model

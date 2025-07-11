@@ -5,7 +5,6 @@ import tensorflow as tf
 
 import config
 
-
 # turns the spreadsheet data into a filepath, label pair and puts it in the key.csv file.
 def createKey(path, validation=False):
 

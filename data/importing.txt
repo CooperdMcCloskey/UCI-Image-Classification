@@ -1,0 +1,18 @@
+Removes read only priveledge from folders copied from google drive
+sudo chflags -R nouchg .
+chmod -R u+rwX .
+
+Renames all csv files to data.csv
+find . -type f -name '*.csv' -execdir bash -c 'if [ ! -e data.csv ]; then mv "$0" data.csv; fi' {} \;
+
+Renames all folders with .JPG to photos
+find . -type f -iname '*.JPG' | while read -r file; do
+  dir=$(dirname "$file")
+  parent=$(dirname "$dir")
+  new="$parent/photos"
+  if [ "$dir" != "$new" ] && [ ! -e "$new" ]; then
+    mv "$dir" "$new"
+  else
+    echo "Skipping: $dir → $new already exists or is already named photos"
+  fi
+done

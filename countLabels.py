@@ -20,7 +20,5 @@ def count_labels(paths):
 print('Training Data -------------------')
 count_labels(config.training_data_paths)
 
-print('\n\n\n')
-
 print('Validation Data -----------------')
 count_labels(config.validation_data_paths)

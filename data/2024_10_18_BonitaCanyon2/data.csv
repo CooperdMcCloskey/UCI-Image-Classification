@@ -1,0 +1,333 @@
+Camera Start Date,Camera End Date,CameraName,Location Code,Image#,Image Quality,Species,SpeciesCode,# of Individuals,Date,Time,Notes
+"Folder Start Date (Date on folder, format YYYY-MM-DD)","Folder End Date (Date of last image in folder, can fill out at end (YYYY-MM-DD)","Can fill this out exactly how it looks on the folder, no spaces then drag down the column at end","3 Letter code for locations-DO NOT ENTER, THIS WILL FILL AUTOMATICALLY",Please start with IMG in the image name,"1 High, 2 Okay, 3 Bad/can barely see animal","coyote, human, raccoon, skunk, opossum, woodrat, bobcat, bird (note species if possible), squirrel, ground squirrel, vehicle, or unknown","Four letter code for species-DO NOT ENTER, THIS WILL FILL AUTOMATICALLY",number of animals seen in image,Date of image (YYYYMMDD),"24 hours, convert if needed, so 1PM would be 13 etc.    Military Hours-->hh:mm:ss","Please record anything noteworthy-prey, young ones, weather problems, if it's a cool picture for outreach or instagram please put ""COOL"" in the notes column"
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0001,1,Human,HOSA,1,20241018,13:22:00,interns
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0002,1,Human,HOSA,2,20241018,,interns
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0003,1,Human,HOSA,2,20241018,,interns
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0004,1,Human,HOSA,2,20241018,,interns
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0005,1,Human,HOSA,2,20241018,,interns
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0006,1,Human,HOSA,2,20241018,,interns
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0007,1,Human,HOSA,4,20241018,,interns
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0008,1,Human,HOSA,4,20241018,,interns
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0009,1,Human,HOSA,4,20241018,,interns
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0010,1,squirrel,SCIU,1,20241018,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0011,1,squirrel,SCIU,1,20241018,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0012,1,squirrel,SCIU,1,20241018,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0013,3,unknown,UNK,1,20241018,,"mid size animal, blurry"
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0016,2,coyote,CAFA,1,20241018,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0017,2,coyote,CAFA,1,20241018,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0018,2,coyote,CAFA,1,20241018,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0019,2,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0020,2,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0021,2,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0022,2,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0025,2,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0026,2,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0027,2,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0028,2,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0029,2,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0030,2,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0031,1,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0032,1,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0033,1,coyote,CAFA,1,20241019,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0034,3,coyote,CAFA,2,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0035,3,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0037,1,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0038,1,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0039,1,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0040,1,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0041,1,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0042,1,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0043,3,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0044,3,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0045,1,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0046,3,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0047,3,coyote,CAFA,1,20241020,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0049,2,squirrel,SCIU,1,20241021,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0050,2,squirrel,SCIU,1,20241021,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0051,2,squirrel,SCIU,1,20241021,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0052,3,coyote,CAFA,1,20241021,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0055,3,coyote,CAFA,1,20241021,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0058,1,squirrel,SCIU,1,20241022,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0059,3,squirrel,SCIU,1,20241022,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0064,2,coyote,CAFA,1,20241022,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0067,2,squirrel,SCIU,1,20241022,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0068,2,squirrel,SCIU,1,20241022,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0069,2,squirrel,SCIU,1,20241022,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0070,3,coyote,CAFA,1,20241023,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0071,3,coyote,CAFA,1,20241023,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0073,3,coyote,CAFA,1,20241023,,bug in front of cam
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0074,3,coyote,CAFA,1,20241023,,bug in front of cam
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0075,3,coyote,CAFA,1,20241023,,bug in front of cam
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0076,2,squirrel,SCIU,1,20241023,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0077,2,squirrel,SCIU,1,20241023,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0078,2,squirrel,SCIU,1,20241023,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0081,3,coyote,CAFA,1,20241023,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0085,3,coyote,CAFA,1,20241024,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0092,3,coyote,CAFA,1,20241024,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0094,3,coyote,CAFA,1,20241025,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0097,3,coyote,CAFA,1,20241025,,spider web in front of cam
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0100,3,coyote,CAFA,1,20241025,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0101,3,coyote,CAFA,1,20241025,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0102,3,coyote,CAFA,1,20241025,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0103,1,coyote,CAFA,1,20241025,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0104,1,coyote,CAFA,1,20241025,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0105,1,coyote,CAFA,1,20241025,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0109,3,coyote,CAFA,1,20241025,,spider web in front of cam
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0112,1,squirrel,SCIU,1,20241026,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0113,1,squirrel,SCIU,1,20241026,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0118,3,coyote,CAFA,1,20241026,,spider web in front of cam
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0119,3,coyote,CAFA,1,20241026,,spider web in front of cam
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0121,3,coyote,CAFA,1,20241027,,spider web in front of cam
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0124,2,coyote,CAFA,1,20241027,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0130,3,coyote,CAFA,1,20241028,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0131,3,coyote,CAFA,1,20241028,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0132,3,coyote,CAFA,1,20241028,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0133,3,coyote,CAFA,1,20241028,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0134,3,coyote,CAFA,1,20241028,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0135,3,coyote,CAFA,1,20241028,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0136,3,coyote,CAFA,1,20241029,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0140,3,coyote,CAFA,1,20241029,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0141,3,coyote,CAFA,1,20241029,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0142,3,coyote,CAFA,1,20241029,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0143,3,coyote,CAFA,1,20241029,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0144,3,coyote,CAFA,1,20241029,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0145,3,coyote,CAFA,1,20241029,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0148,3,coyote,CAFA,1,20241030,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0151,2,coyote,CAFA,1,20241030,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0152,2,coyote,CAFA,1,20241030,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0155,3,coyote,CAFA,1,20241030,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0156,3,coyote,CAFA,1,20241030,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0157,2,bird,BIRD,1,20241030,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0158,2,bird,BIRD,1,20241030,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0159,2,bird,BIRD,1,20241030,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0161,3,bird,BIRD,1,20241030,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0162,3,bird,BIRD,1,20241030,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0164,3,bird,BIRD,1,20241030,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0166,3,raccoon,PRLO,1,20241030,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0167,3,raccoon,PRLO,1,20241030,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0168,3,raccoon,PRLO,1,20241030,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0169,2,coyote,CAFA,1,20241030,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0170,1,coyote,CAFA,1,20241030,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0171,1,coyote,CAFA,1,20241030,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0172,3,coyote,CAFA,1,20241031,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0175,2,squirrel,SCIU,1,20241031,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0176,2,squirrel,SCIU,1,20241031,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0177,1,squirrel,SCIU,1,20241031,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0178,1,squirrel,SCIU,1,20241031,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0181,2,squirrel,SCIU,1,20241031,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0187,2,coyote,CAFA,1,20241101,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0188,2,coyote,CAFA,1,20241101,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0189,2,coyote,CAFA,1,20241101,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0190,1,bird,BIRD,1,20241101,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0191,1,bird,BIRD,1,20241101,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0192,1,bird,BIRD,1,20241101,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0193,2,coyote,CAFA,1,20241101,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0194,3,coyote,CAFA,1,20241101,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0195,3,coyote,CAFA,1,20241101,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0196,3,coyote,CAFA,1,20241101,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0197,3,coyote,CAFA,1,20241101,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0198,3,coyote,CAFA,1,20241101,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0199,3,coyote,CAFA,1,20241101,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0202,2,coyote,CAFA,1,20241102,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0203,2,coyote,CAFA,1,20241102,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0204,2,coyote,CAFA,1,20241102,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0205,3,coyote,CAFA,1,20241103,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0206,3,coyote,CAFA,1,20241103,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0207,3,coyote,CAFA,1,20241103,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0211,3,coyote,CAFA,1,20241103,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0212,3,coyote,CAFA,1,20241103,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0213,3,coyote,CAFA,1,20241103,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0214,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0215,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0216,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0217,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0220,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0221,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0222,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0223,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0224,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0225,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0226,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0227,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0228,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0229,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0230,3,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0231,2,coyote,CAFA,1,20241104,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0232,1,coyote,CAFA,1,20241105,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0235,2,coyote,CAFA,1,20241105,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0236,2,coyote,CAFA,1,20241105,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0237,2,coyote,CAFA,1,20241105,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0247,1,coyote,CAFA,1,20241105,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0248,1,coyote,CAFA,1,20241105,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0249,1,coyote,CAFA,1,20241105,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0250,3,coyote,CAFA,1,20241105,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0253,3,coyote,CAFA,1,20241105,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0256,3,coyote,CAFA,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0257,3,coyote,CAFA,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0258,3,coyote,CAFA,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0259,3,coyote,CAFA,2,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0260,3,coyote,CAFA,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0262,3,bird,BIRD,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0265,1,bird,BIRD,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0266,1,bird,BIRD,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0267,1,bird,BIRD,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0268,3,unknown,UNK,1,20241106,,strange shape near middle
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0269,2,bird,BIRD,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0271,1,coyote,CAFA,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0272,1,coyote,CAFA,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0273,1,coyote,CAFA,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0274,1,coyote,CAFA,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0275,1,coyote,CAFA,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0276,1,coyote,CAFA,1,20241106,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0278,3,unknown,UNK,1,20241106,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0279,3,unknown,UNK,1,20241106,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0280,3,unknown,UNK,1,20241106,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0281,3,unknown,UNK,1,20241106,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0282,3,unknown,UNK,1,20241106,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0283,3,unknown,UNK,1,20241106,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0284,3,unknown,UNK,1,20241106,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0285,3,unknown,UNK,1,20241106,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0286,3,coyote,CAFA,1,20241107,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0287,3,coyote,CAFA,1,20241107,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0288,3,coyote,CAFA,1,20241107,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0289,3,coyote,CAFA,1,20241107,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0290,3,coyote,CAFA,1,20241107,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0292,3,unknown,UNK,1,20241108,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0293,3,unknown,UNK,1,20241108,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0294,3,unknown,UNK,1,20241108,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0295,3,unknown,UNK,1,20241108,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0296,3,unknown,UNK,1,20241108,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0297,3,unknown,UNK,1,20241108,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0298,2,coyote,CAFA,1,20241108,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0299,2,coyote,CAFA,1,20241108,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0300,2,coyote,CAFA,1,20241108,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0302,2,coyote,CAFA,1,20241108,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0304,1,coyote,CAFA,1,20241108,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0305,1,coyote,CAFA,1,20241108,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0306,1,coyote,CAFA,1,20241108,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0310,3,coyote,CAFA,1,20241109,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0313,2,coyote,CAFA,1,20241109,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0314,2,coyote,CAFA,1,20241109,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0316,2,coyote,CAFA,1,20241109,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0317,2,coyote,CAFA,1,20241109,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0319,2,coyote,CAFA,2,20241110,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0320,2,coyote,CAFA,2,20241110,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0321,2,coyote,CAFA,2,20241110,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0322,2,bird,BIRD,2,20241110,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0323,2,bird,BIRD,2,20241110,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0325,3,coyote,CAFA,1,20241110,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0326,3,coyote,CAFA,1,20241110,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0328,3,coyote,CAFA,1,20241111,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0331,3,coyote,CAFA,1,20241111,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0332,3,coyote,CAFA,1,20241111,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0340,3,coyote,CAFA,1,20241112,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0343,3,coyote,CAFA,1,20241112,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0346,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0347,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0348,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0349,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0350,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0351,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0352,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0353,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0354,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0355,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0356,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0357,3,unknown,UNK,1,20241112,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0364,3,coyote,CAFA,1,20241113,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0367,3,coyote,CAFA,1,20241114,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0368,3,coyote,CAFA,1,20241114,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0369,2,coyote,CAFA,1,20241114,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0370,2,coyote,CAFA,1,20241114,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0371,2,coyote,CAFA,1,20241114,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0372,2,coyote,CAFA,1,20241114,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0382,3,coyote,CAFA,1,20241114,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0384,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0385,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0386,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0387,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0388,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0389,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0390,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0391,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0392,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0393,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0394,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0395,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0396,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0397,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0398,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0399,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0400,3,unknown,UNK,1,20241114,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0401,3,unknown,UNK,1,20241115,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0402,3,unknown,UNK,1,20241115,,spider and spider web is blocking the camera
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0403,3,rabbit,RASP,1,20241115,,either a coyote or rabbit
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0409,3,coyote,CAFA,2,20241116,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0412,2,coyote,CAFA,2,20241116,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0413,2,coyote,CAFA,2,20241116,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0414,2,coyote,CAFA,2,20241116,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0415,1,squirrel,SCIU,1,20241116,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0416,1,squirrel,SCIU,1,20241116,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0417,3,squirrel,SCIU,1,20241116,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0418,2,coyote,CAFA,1,20241116,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0421,1,squirrel,SCIU,1,20241116,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0422,1,squirrel,SCIU,1,20241116,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0423,1,squirrel,SCIU,1,20241116,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0427,3,coyote,CAFA,1,20241117,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0430,3,coyote,CAFA,2,20241118,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0431,3,coyote,CAFA,2,20241118,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0432,3,coyote,CAFA,2,20241118,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0433,2,coyote,CAFA,2,20241118,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0442,1,coyote,CAFA,1,20241120,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0443,1,coyote,CAFA,1,20241120,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0444,1,coyote,CAFA,1,20241120,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0445,2,bird,BIRD,1,20241120,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0446,2,bird,BIRD,1,20241120,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0447,2,bird,BIRD,1,20241120,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0448,2,bird,BIRD,1,20241120,,great blue heron
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0454,3,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0457,2,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0458,2,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0459,2,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0460,3,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0461,1,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0462,3,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0463,3,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0464,3,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0465,3,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0472,3,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0475,3,coyote,CAFA,1,20241121,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0478,3,coyote,CAFA,1,20241122,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0481,3,coyote,CAFA,1,20241122,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0484,3,coyote,CAFA,1,20241122,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0485,3,coyote,CAFA,1,20241122,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0487,3,bird,BIRD,1,20241122,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0493,1,squirrel,SCIU,1,20241123,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0496,3,coyote,CAFA,1,20241124,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0497,3,coyote,CAFA,2,20241124,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0498,3,coyote,CAFA,2,20241124,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0498,3,coyote,CAFA,2,20241124,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0499,3,coyote,CAFA,1,20241124,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0500,3,coyote,CAFA,1,20241124,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0501,3,coyote,CAFA,1,20241124,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0502,1,coyote,CAFA,1,20241124,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0503,1,coyote,CAFA,1,20241124,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0504,1,coyote,CAFA,1,20241124,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0508,3,coyote,CAFA,1,20241125,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0511,3,coyote,CAFA,1,20241125,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0514,3,coyote,CAFA,1,20241125,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0515,3,coyote,CAFA,1,20241125,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0516,3,coyote,CAFA,1,20241125,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0517,3,coyote,CAFA,2,20241125,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0518,3,coyote,CAFA,2,20241125,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0520,3,coyote,CAFA,1,20241125,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0521,3,coyote,CAFA,1,20241125,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0532,1,human,HOSA,2,20241126,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0533,1,human,HOSA,2,20241126,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0534,3,human,HOSA,2,20241126,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0535,3,human,HOSA,1,20241126,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0536,3,human,HOSA,1,20241126,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0537,3,human,HOSA,1,20241126,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0538,2,human,HOSA,1,20241126,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0539,3,human,HOSA,1,20241126,,
+2024-10-18,2024-11-26,BonitaCanyon2,BC2,IMG_0540,2,human,HOSA,1,20241126,,

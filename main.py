@@ -12,5 +12,3 @@ model = get_model()
 model.summary()
 model.compile(optimizer='adam', loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=False), metrics=['accuracy'])
 history = model.fit(dataset, epochs=config.epochs, validation_data=validation_dataset, class_weight=config.class_weights)
-
-
