@@ -1,6 +1,6 @@
 # use general if classifying based on false / true trigger; use per-species if trying to classify each species individually.
 setting = 'general'
-
+debugging = False
 # converts species code to numberic value for training (0 is false trigger and -1 is error and do not need to be included in the map)
 per_species_label_map = {
   'UNK': -2,
@@ -38,28 +38,8 @@ general_label_map = {
   'NEOSP': 1, # wood rat
 }
 
-# Because certain classes are less common, it is necessary to punish the model more severely when it fails to recognize on of the rare classes
-# run countLabels.py to inform the weighing of classes
-per_species_class_weights = {
-  0: 1, # false trigger - keep at 1
-  1: 5, # coyote
-  2: 1, # bobcat - not necessary to punish as there is such a limited number of bobcat photos it is impossible to learn
-  3: 20, # rabbit
-  4: 10, # raccoon
-  5: 10, # bird
-  6: 20, # opossum
-  7: 1, # skunk - not necessary to punish as there is such a limited number of bobcat photos it is impossible to learn
-  8: 10, # squirrel
-  9: 1, # wood rat - not necessary to punish as there is such a limited number of bobcat photos it is impossible to learn
-}
-
-general_class_weights = {
-  0: 1,
-  1: 1
-}
-
 per_species_class_count = 10 # 0-9 is 10 unique classes
-general_class_count = 2 # either false trigger (0) or true (1)
+general_class_count = 1 # either false trigger (0) or true (1)
 
 
 label_map = {}
@@ -68,18 +48,10 @@ class_count = 0
 
 if setting == 'general':
   label_map = general_label_map
-  class_weights = general_class_weights
   class_count = general_class_count
 else:
   label_map = per_species_label_map
-  class_weights = per_species_class_weights
   class_count = per_species_class_count
-
-
-
-
-
-
 	
 
 training_data_paths = [
@@ -106,9 +78,9 @@ validation_data_paths = [
 	'data/2023_01_31_BonitaCanyon2',
 ]
 
-data_shuffle_buffer_size = 512 #smaller if 'Shuffle buffer filled.' error occurs
+data_shuffle_buffer_size = 1000 #smaller if 'Shuffle buffer filled.' error occurs
 
 #training (go to training/model.py to configure the actual model structure)
-image_size = (384, 216) # downsizes the images appropriately while maintaining aspect ratio
-batch_size = 32
+image_size = (224, 224) # downsizes the images appropriately while maintaining aspect ratio
+batch_size =24
 epochs = 10

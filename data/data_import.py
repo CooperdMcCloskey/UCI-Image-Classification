@@ -32,8 +32,8 @@ def createKey(path, validation=False):
     if encoded_label == -1: print(f'Unknown label: {path} - {data[i+1][7]}, - IMG_{i}')
     key[labeled_photo_indices[i]] = encoded_label
 
-    #removes unsure photos from validation pool
-    if validation and int(data[i+1][5]) == 3:
+    #removes unsure photos from pool
+    if int(data[i+1][5]) > 2:
       key[labeled_photo_indices[i]] = -1
 
   # writes the key array and corresponding image filepath to the csv file
@@ -52,6 +52,12 @@ def load_image(path, label):
   image = tf.image.resize(image, config.image_size)
   image = tf.image.rgb_to_grayscale(image) # most photos are at night and black and white anyways so this is likely to improve performance
   image = image / 255.0 
+
+  # image augmentation to avoid overfitting - can be removed if overfitting is not a problem
+  image = tf.image.random_flip_left_right(image)
+  image = tf.image.random_brightness(image, max_delta=0.1)
+  image = tf.image.random_contrast(image, 0.8, 1.2)
+  image = tf.image.random_jpeg_quality(image, 75, 100)
   return image, label
 
 
@@ -67,6 +73,7 @@ def createDataset(paths):
         image_paths.append(row[0])
         image_labels.append(int(row[1]))
 
+  num_samples = len(image_paths)
   
 
   # creates tensorflow datasets from the data
@@ -76,8 +83,9 @@ def createDataset(paths):
 
   
   ds = ds.map(load_image, num_parallel_calls=tf.data.AUTOTUNE) # calls load_image for all the images in the dataset in parralel
-  ds = ds.shuffle(buffer_size=config.data_shuffle_buffer_size) # randomizes dataset order
+  ds.cache()
+  ds = ds.shuffle(buffer_size=config.data_shuffle_buffer_size, reshuffle_each_iteration=True) # randomizes dataset order
   ds = ds.batch(config.batch_size).prefetch(tf.data.AUTOTUNE)
 
-  return ds
+  return ds, num_samples
   
