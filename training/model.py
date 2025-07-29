@@ -1,32 +1,44 @@
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras import layers, models # type: ignore
+from tensorflow.keras import layers, regularizers, initializers # type: ignore
 import config
 
-def get_model():
+def get_day_model():
+    pass
 
-  model = models.Sequential([
-    keras.Input(shape=config.image_size + (1,)),
-    layers.Conv2D(32, (3, 3), activation='relu', kernel_regularizer=keras.regularizers.l2(0.001)),
-    layers.BatchNormalization(),
-    layers.MaxPooling2D(2, 2),
+def get_night_model():
+    inputs = keras.Input(shape=config.image_size + (1,))  # grayscale input
 
-    layers.Conv2D(64, (3, 3), activation='relu', kernel_regularizer=keras.regularizers.l2(0.001)),
-    layers.BatchNormalization(),
-    layers.MaxPooling2D(2, 2),
+    # Block 1
+    x = layers.Conv2D(64, (3, 3), padding='same', kernel_regularizer=regularizers.l2(0.0001))(inputs)
+    x = layers.BatchNormalization()(x)
+    x = layers.LeakyReLU(alpha=0.1)(x)
+    x = layers.MaxPooling2D((2, 2), strides=(2, 2))(x)
 
-    layers.Conv2D(128, (3, 3), activation='relu', kernel_regularizer=keras.regularizers.l2(0.001)),
-    layers.BatchNormalization(),
-    layers.MaxPooling2D(2, 2),
+    # Block 2
+    x = layers.Conv2D(128, (3, 3), padding='same', kernel_regularizer=regularizers.l2(0.0001))(x)
+    x = layers.BatchNormalization()(x)
+    x = layers.LeakyReLU(alpha=0.1)(x)
+    x = layers.SpatialDropout2D(0.2)(x)
+    x = layers.MaxPooling2D((2, 2), strides=(2, 2))(x)
 
-    layers.GlobalAveragePooling2D(),
+    # Global feature pooling
+    x = layers.GlobalAveragePooling2D()(x)
 
-    layers.Dense(128, activation='relu', kernel_regularizer=keras.regularizers.l2(0.001)),
-    layers.Dropout(0.3),
-    layers.Dense(64, activation='relu', kernel_regularizer=keras.regularizers.l2(0.001)),
-    layers.Dropout(0.3),
+    # Fully connected layers
+    x = layers.Dense(64, kernel_regularizer=regularizers.l2(0.0001))(x)
+    x = layers.LeakyReLU(alpha=0.1)(x)
+    x = layers.Dropout(0.3)(x)
 
-    layers.Dense(config.class_count, activation= 'sigmoid' if config.setting == 'general' else 'softmax')  
-])
+    x = layers.Dense(32, kernel_regularizer=regularizers.l2(0.0001))(x)
+    x = layers.LeakyReLU(alpha=0.1)(x)
+    x = layers.Dropout(0.3)(x)
 
-  return model
+    # Output layer
+    output_activation = 'sigmoid' if config.classification_type == 'general' else 'softmax'
+    outputs = layers.Dense(config.class_count, activation=output_activation, bias_initializer=initializers.Constant(0) )(x)
+    
+
+    # Build the model
+    model = keras.Model(inputs=inputs, outputs=outputs)
+    return model

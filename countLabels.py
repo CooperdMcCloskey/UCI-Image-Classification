@@ -10,7 +10,9 @@ def count_labels(paths):
       csvreader = csv.reader(file)
       next(csvreader)
       for row in csvreader:
-        image_labels.append(int(row[1]))
+        is_day = row[2].strip().lower() in ('true', '1')
+        if(is_day == config.is_day):
+          image_labels.append(int(row[1]))
 
   label_counts = Counter(image_labels)
 
