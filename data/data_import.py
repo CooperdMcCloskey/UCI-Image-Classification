@@ -5,6 +5,7 @@ import cv2
 import numpy as np
 import tensorflow as tf
 
+from data.image_processing import ImageLoader
 import config
 
 # turns the spreadsheet data into a filepath, label pair and puts it in the key.csv file.
@@ -53,20 +54,6 @@ def createKey(path, validation=False):
       is_day = is_color(img)
 
       writer.writerow([image_path, key[i], is_day]) 
-  
-
-def load_image(path, label, validation = False):
-  image = tf.io.read_file(path)
-  image = tf.image.decode_jpeg(image, channels=3)
-  image = tf.image.resize(image, config.image_size)
-  image = tf.image.rgb_to_grayscale(image) # most photos are at night and black and white anyways so this is likely to improve performance
-  image = image / 255.0 
-
-  # image augmentation to avoid overfitting - can be removed if overfitting is not a problem
-  if not validation:
-    image = tf.image.random_brightness(image, max_delta=0.1)
-    image = tf.image.adjust_contrast(image, 2.0)
-  return image, label
 
 def is_color(image):
   b, g, r = cv2.split(image)
@@ -79,8 +66,7 @@ def is_color(image):
 
   return mean_diff > 5
 
-
-def createDatasets(paths, validation = False):
+def createDataset(paths, validation = False):
   # extracts all image paths and all keys from all the given directories
   image_paths = []
   image_labels = []
@@ -102,7 +88,9 @@ def createDatasets(paths, validation = False):
   label_ds = tf.data.Dataset.from_tensor_slices(image_labels)
   ds = tf.data.Dataset.zip((path_ds, label_ds))
 
-  ds = ds.map(lambda path, label: load_image(path, label, validation), num_parallel_calls=tf.data.AUTOTUNE) # calls load_image for all the images in the dataset in parralel
+  image_loader = ImageLoader()
+
+  ds = ds.map(lambda path, label: image_loader.process_image(path, label, validation), num_parallel_calls=tf.data.AUTOTUNE) # calls load_image for all the images in the dataset in parralel
   ds.cache()
   ds = ds.shuffle(buffer_size=config.data_shuffle_buffer_size, reshuffle_each_iteration=True) # randomizes dataset order
   ds = ds.batch(config.batch_size).prefetch(tf.data.AUTOTUNE)

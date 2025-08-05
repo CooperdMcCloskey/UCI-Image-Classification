@@ -1,5 +1,5 @@
 import numpy as np
-from tensorflow.keras.callbacks import Callback
+from tensorflow.keras.callbacks import Callback # type: ignore
 
 
 class PrintPredictionsCallback(Callback):

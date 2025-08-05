@@ -10,8 +10,8 @@ print("SETTINGS ---")
 print(f" >> Classification type: {config.classification_type}")
 print(f" >> Time: {config.time}")
 
-dataset = data_import.createDatasets(config.training_data_paths)
-validation_dataset = data_import.createDatasets(config.validation_data_paths, True)
+dataset = data_import.createDataset(config.training_data_paths)
+validation_dataset = data_import.createDataset(config.validation_data_paths, True)
 class_weights = get_class_weights(dataset)
 
 callbacks = []
